@@ -28,12 +28,78 @@ export const birthday = {
   profilePhoto: "/images/birthday/profile.jpg",
   secondSoloPhoto: "/images/birthday/solo-2.jpg",
 
-  /* ── Opening cake ──────────────────────────────────────── */
+  /* ── Opening cake & candle scene ───────────────────────── */
   openLine1: { bn: "তনয়া, আগে একটা কাজ কর...", en: "Tonoya, do one thing first..." },
   openLine2: { bn: "মোমবাতিগুলো নিভিয়ে দে।", en: "Blow out the candles." },
   afterBlow: { bn: "Happy Birthday, তনয়া ❤️", en: "Happy Birthday, Tonoya ❤️" },
   nowComeIn: { bn: "এবার ভিতরে আয়...", en: "Now come inside..." },
   tapToEnter: { bn: "ভেতরে আসতে স্পর্শ করো", en: "Tap to come in" },
+
+  /* ── Computer Vision / Camera Mode ─────────────────────── */
+  cameraModeBtn: {
+    bn: "ক্যামেরা মোড — ফুঁ দিয়ে নেভাও 💨",
+    en: "Camera Mode — Blow out candles 💨",
+  },
+  tryWithCamera: {
+    bn: "ক্যামেরা দিয়ে চেষ্টা করো",
+    en: "Try with camera",
+  },
+  continueWithoutCamera: {
+    bn: "ক্যামেরা ছাড়া চালিয়ে যাও",
+    en: "Continue without camera",
+  },
+  cameraPrompt: {
+    bn: "মোমবাতির দিকে তাকিয়ে ফুঁ দাও 💨",
+    en: "Look at the candles and blow 💨",
+  },
+  cameraBlowingDetected: {
+    bn: "ফুঁ শনাক্ত হচ্ছে... 💨",
+    en: "Blowing detected... 💨",
+  },
+  cameraSuccess: {
+    bn: "দারুণ! এবার জন্মদিনের গল্পে ঢুকে পড়ো ✨",
+    en: "Awesome! Now step into the birthday story ✨",
+  },
+  cameraDenied: {
+    bn: "ক্যামেরা পাওয়া যায়নি — মোমবাতিতে ট্যাপ করো",
+    en: "Camera unavailable — tap the candles directly",
+  },
+  cameraClose: {
+    bn: "ক্যামেরা বন্ধ করো",
+    en: "Close camera",
+  },
+  tapFallbackHint: {
+    bn: "অথবা মোমবাতিতে ট্যাপ করো",
+    en: "or tap the candles directly",
+  },
+  cameraDetectingFace: {
+    bn: "মুখ শনাক্ত করছি...",
+    en: "Detecting face...",
+  },
+  cameraReady: {
+    bn: "প্রস্তুত 💨",
+    en: "Ready 💨",
+  },
+  cameraBlowing: {
+    bn: "ফুঁ দিচ্ছো…",
+    en: "Blowing…",
+  },
+  cameraBlowDetected: {
+    bn: "ফুঁ detected…",
+    en: "ফুঁ detected…",
+  },
+  cameraFaceMissing: {
+    bn: "মুখটা ফ্রেমে দেখাও",
+    en: "Show your face to the camera",
+  },
+  cameraLoadingModel: {
+    bn: "চিহ্নিত করছি…",
+    en: "Warming up…",
+  },
+  cameraAlmostThere: {
+    bn: "প্রায় হয়ে গেছে...",
+    en: "Almost there...",
+  },
 
   introKicker: { bn: "শুভ জন্মদিন, তনয়া! 🎂", en: "Happy Birthday, Tonoya! 🎂" },
   introSub: {
