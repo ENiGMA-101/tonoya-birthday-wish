@@ -73,17 +73,3 @@ export default function BirthdaySite() {
     </LangProvider>
   );
 }
-<audio
-  id="birthday-audio"
-  src="/audio/birthday-bg.mp3"
-  loop
-  preload="auto"
-/>
-const audio = document.getElementById(
-  "birthday-audio"
-) as HTMLAudioElement | null;
-
-if (audio) {
-  audio.volume = 0.15;
-  audio.play().catch(() => {});
-}
